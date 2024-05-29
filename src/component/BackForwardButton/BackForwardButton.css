@@ -1,0 +1,18 @@
+#back-forward button {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(95, 10, 138);
+    color: wheat;
+}
+
+#back-forward button:hover {
+    cursor: pointer;
+    background-color: rgb(79, 9, 114);
+}
+
+#back-forward button:active {
+    border: 1px solid black;
+}

@@ -1,0 +1,96 @@
+#todo-component {
+    background-image: linear-gradient(45deg, #10111f, #1b1d34, #10111f);
+    color: antiquewhite;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 40px 40px;
+    font-size: 25px;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#todo-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#todo-title {
+    padding: 0px 10px;
+}
+
+#completed input[type="checkbox"] {
+    width: 30px;
+    height: 20px;
+    margin: 0%;
+    accent-color: rgb(113, 0, 235);
+    cursor: pointer;
+}
+
+#todo-discription,
+#todo-time {
+    background-color: #141525;
+    padding: 25px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+/*Not Written by me*/
+.hr_diff {
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: relative;
+    margin-bottom: 0em;
+    padding: 2em 0;
+}
+
+.hr_diff:after,
+.hr_diff:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 50%;
+    left: 0;
+}
+
+.hr_diff:before {
+    background: linear-gradient(90deg, #10111f 0%, #10111f 50%, transparent 50%, transparent 100%);
+    background-size: 15px;
+    background-position: center;
+    z-index: 1;
+}
+
+.hr_diff:after {
+    transition: opacity 0.3s ease, -webkit-animation 0.3s ease;
+    transition: opacity 0.3s ease, animation 0.3s ease;
+    transition: opacity 0.3s ease, animation 0.3s ease, -webkit-animation 0.3s ease;
+    background: linear-gradient(to right, #62efab 5%, #f2ea7d 15%, #f2ea7d 25%, #ff8797 35%, #ff8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
+    background-size: 200%;
+    background-position: 0%;
+    -webkit-animation: bar 15s linear infinite;
+    animation: bar 15s linear infinite;
+}
+
+@-webkit-keyframes bar {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}
+
+@keyframes bar {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}

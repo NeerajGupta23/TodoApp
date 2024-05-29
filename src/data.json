@@ -1,0 +1,28 @@
+{  "data_Array": [
+    {
+        "title" : "Maths Homework",
+        "Due_Date" : "Monday, 21st June",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ratione veniam, autem inventore accusantium voluptas necessitatibus recusandae, aliquid porro amet."
+    },
+    {
+        "title" : "Science Homework",
+        "Due_Date" : "Monday, 26st July",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ratione veniam, autem inventore accusantium voluptas necessitatibus recusandae, aliquid porro amet."
+    },
+    {
+        "title" : "Physics Homework",
+        "Due_Date" : "Tuesday, 2nd August",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ratione veniam, autem inventore accusantium voluptas necessitatibus recusandae, aliquid porro amet."
+    },
+    {
+        "title" : "Chemistry Homework",
+        "Due_Date" : "Saturday, 22th April",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ratione veniam, autem inventore accusantium voluptas necessitatibus recusandae, aliquid porro amet."
+    },
+    {
+        "title" : "Java Homework",
+        "Due_Date" : "Thursday, 29th January",
+        "discription" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ratione veniam, autem inventore accusantium voluptas necessitatibus recusandae, aliquid porro amet."
+    }
+
+]} 
